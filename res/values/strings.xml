@@ -13671,6 +13671,9 @@
     <string name="security_settings_fingerprint_settings_use_fingerprint_unlock_phone_summary">Allow fingerprints to unlock the screen lock. If this is disabled, fingerprints can still be used in apps.</string>
     <string name="connectivity_check_title">Internet connectivity check</string>
     <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
+    <string name="esim_compat_category_title">eSIM Compatibility</string>
+    <string name="esim_compat_title">Enable eSIM Compatibility</string>
+    <string name="esim_compat_summary">Enables privileged access for Google eSIM app</string>
 
     <string name="sandboxed_google_play">Sandboxed Google Play</string>
 </resources>

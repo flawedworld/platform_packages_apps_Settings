@@ -124,4 +124,18 @@
         android:summary="@string/summary_placeholder"
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
+    
+    <PreferenceCategory
+        android:order="30"
+        android:key="esim_category"
+        android:title="@string/esim_compat_category_title">
+
+        <ListPreference
+            android:key="esim_compat"
+            android:title="@string/esim_compat_title"
+            android:summary="@string/esim_compat_summary"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
